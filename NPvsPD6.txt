@@ -1,0 +1,10 @@
+What is the difference between a numpy array and a pandas dataframe in 
+Python?
+
+In a numpy array all the "items" in the array are of the same type. 
+
+Adding to a pandas DataFrame is a lot easier than adding to an numpy 
+array because the indexing in a DataFrame is more flexible whereas 
+inserting in toa numpy array you would have to move all the "items" 
+behind the insert to a different space in memory which takes a ton of 
+time.
